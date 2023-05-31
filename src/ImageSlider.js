@@ -6,7 +6,7 @@ const ImageSlider = ({ slides }) => {
     const sliderStyles = {
         height: "100%",
         position: "relative",
-        backgroundColor: "#fff",
+        backgroundColor: "blue",
     
     };
     
@@ -14,22 +14,27 @@ const ImageSlider = ({ slides }) => {
         width: "200px",
         height: "280px",
         color: "#fff",
-        borderRadius: "10px",
-        border:"#000",  
-        borderWidth: "1px",
+        position: "absolute",
+        borderRadius: "5px",
         backgroundPosition: "center",
         backgroundImage: `url(${slides[currentIndex].url})`,
         backgroundSize: "cover",
         
     };
 
+    const titleStyles = {
+        color: "#fff",
+        height: "20px",
+        width: "100%",
+
+    }
     const leftArrowStyles = {
         position: "absolute",
         top: "50%",
         transform: "translate(0, -50%)",
         left: "32px",
         fontSize: "55px",
-        color: "#000",
+        color: "#fff",
         zIndex: 1,
         cursor: "pointer",
     };
@@ -40,7 +45,7 @@ const ImageSlider = ({ slides }) => {
         transform: "translate(0, -50%)",
         right: "32px",
         fontSize: "55px",
-        color: "#000",
+        color: "#fff",
         zIndex: 1,
         cursor: "pointer",
     };
@@ -64,8 +69,8 @@ const ImageSlider = ({ slides }) => {
             <div style={leftArrowStyles} onClick={goToPrevious}>‹</div>
             <div style={rightArrowStyles} onClick={goToNext}>›</div>
             <div style={slideStyles}></div>
-            <div> {slides[currentIndex].title}</div>
-            <div> {slides[currentIndex].dates}</div>
+            <div style={titleStyles}>{slides[currentIndex].title}</div>
+            <div style={titleStyles}>{slides[currentIndex].dates}</div>
         </div>
     )
 

@@ -10,11 +10,12 @@ function App() {
     width: "400px",
     height: "600px",
     margin: "0 auto",
+    backgroundcolor: "blue",
   };
 
   return (
     <div>
-      <h3>Image Slider App</h3>
+      
       <div style={containerStyles}>
         <ImageSlider slides={slides} />
       </div>
