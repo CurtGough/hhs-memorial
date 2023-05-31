@@ -5,7 +5,8 @@ const ImageSlider = ({ slides }) => {
 
     const sliderStyles = {
         height: "100%",
-        position: "relative",
+        width: "100%",
+        margin: "25px 25px 25px 1px",
         backgroundColor: "blue",
     
     };
@@ -14,9 +15,10 @@ const ImageSlider = ({ slides }) => {
         width: "200px",
         height: "280px",
         color: "#fff",
-        position: "absolute",
-        borderRadius: "5px",
-        backgroundPosition: "center",
+        float: "none",
+        margin: "0 auto",
+        display: "block",
+        borderRadius: "2px",
         backgroundImage: `url(${slides[currentIndex].url})`,
         backgroundSize: "cover",
         
@@ -26,7 +28,11 @@ const ImageSlider = ({ slides }) => {
         color: "#fff",
         height: "20px",
         width: "100%",
-
+        fontSize: "25px",
+        fontWeight: "bold",
+        textAlign: "center",
+        marginTop: "14px",
+    
     }
     const leftArrowStyles = {
         position: "absolute",
@@ -65,13 +71,17 @@ const ImageSlider = ({ slides }) => {
     };
 
     return (
+        <>
         <div style={sliderStyles}>
             <div style={leftArrowStyles} onClick={goToPrevious}>‹</div>
             <div style={rightArrowStyles} onClick={goToNext}>›</div>
-            <div style={slideStyles}></div>
-            <div style={titleStyles}>{slides[currentIndex].title}</div>
-            <div style={titleStyles}>{slides[currentIndex].dates}</div>
+            <div style={slideStyles}>
+            </div>
+            <div style={titleStyles}>{slides[currentIndex].Name}</div>
+            <div style={titleStyles}>{slides[currentIndex].Dates}</div>
+            
         </div>
+        </>
     )
 
 };
