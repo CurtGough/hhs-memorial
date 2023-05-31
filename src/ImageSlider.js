@@ -25,7 +25,7 @@ const ImageSlider = ({ slides }) => {
     };
 
     const titleStyles = {
-        color: "#fff",
+        color: "yellow",
         height: "20px",
         width: "100%",
         fontSize: "25px",
