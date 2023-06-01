@@ -10,16 +10,16 @@ function App() {
     width: "400px",
     height: "600px",
     margin: "0 auto",
-    backgroundcolor: "blue",
+    marginTop: "100px",
+    backgroundcolor: "#0a2493",
   };
+
 
   return (
     <div>
-      
       <div style={containerStyles}>
         <ImageSlider slides={slides} />
       </div>
-      
     </div>
   );
 };

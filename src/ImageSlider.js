@@ -7,7 +7,7 @@ const ImageSlider = ({ slides }) => {
         height: "100%",
         width: "100%",
         margin: "25px 25px 25px 1px",
-        backgroundColor: "blue",
+        backgroundColor: "#0000cd",
     
     };
     
@@ -25,13 +25,13 @@ const ImageSlider = ({ slides }) => {
     };
 
     const titleStyles = {
-        color: "yellow",
+        color: "#ffd700",
         height: "20px",
         width: "100%",
         fontSize: "25px",
         fontWeight: "bold",
         textAlign: "center",
-        marginTop: "14px",
+        marginTop: "30px",
     
     }
     const leftArrowStyles = {
@@ -70,6 +70,15 @@ const ImageSlider = ({ slides }) => {
 
     };
 
+    const footerStyles = {
+        color: "#ffd700",
+        fontSize: "16px",
+        fontStyle: "italic",
+        fontWeight: "bold",
+        textAlign: "center",
+        marginTop: "30px",
+      }
+
     return (
         <>
         <div style={sliderStyles}>
@@ -80,7 +89,10 @@ const ImageSlider = ({ slides }) => {
             <div style={titleStyles}>{slides[currentIndex].Name}</div>
             <div style={titleStyles}>{slides[currentIndex].Dates}</div>
             
-        </div>
+            <div style={footerStyles}>
+                Always a Salthawk * Never Forgotten
+            </div>
+    </div>
         </>
     )
 
