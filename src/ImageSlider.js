@@ -83,7 +83,7 @@ const ImageSlider = ({ slides }) => {
 
     const footerStyles = {
         color: "#ffd700",
-        fontSize: "16px",
+        fontSize: "14px",
         fontStyle: "italic",
         fontWeight: "bold",
         textAlign: "center",
