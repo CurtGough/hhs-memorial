@@ -34,11 +34,22 @@ const ImageSlider = ({ slides }) => {
         marginTop: "30px",
     
     }
+
+    const subtitleStyles = {
+        color: "#ffd700",
+        height: "20px",
+        width: "100%",
+        fontSize: "22px",
+        fontWeight: "bold",
+        textAlign: "center",
+        marginTop: "20px",
+    
+    }
     const leftArrowStyles = {
         position: "absolute",
         top: "50%",
         transform: "translate(0, -50%)",
-        left: "32px",
+        left: "15px",
         fontSize: "55px",
         color: "#fff",
         zIndex: 1,
@@ -49,7 +60,7 @@ const ImageSlider = ({ slides }) => {
         position: "absolute",
         top: "50%",
         transform: "translate(0, -50%)",
-        right: "32px",
+        right: "15px",
         fontSize: "55px",
         color: "#fff",
         zIndex: 1,
@@ -87,7 +98,7 @@ const ImageSlider = ({ slides }) => {
             <div style={slideStyles}>
             </div>
             <div style={titleStyles}>{slides[currentIndex].Name}</div>
-            <div style={titleStyles}>{slides[currentIndex].Dates}</div>
+            <div style={subtitleStyles}>{slides[currentIndex].Dates}</div>
             
             <div style={footerStyles}>
                 Always a Salthawk * Never Forgotten
