@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//CurtGough.github.io/hhs-memorial/static/css/main.1eb67797.css",
-    "main.js": "/https//CurtGough.github.io/hhs-memorial/static/js/main.0c63632d.js",
-    "static/js/787.55aae160.chunk.js": "/https//CurtGough.github.io/hhs-memorial/static/js/787.55aae160.chunk.js",
-    "index.html": "/https//CurtGough.github.io/hhs-memorial/index.html",
-    "main.1eb67797.css.map": "/https//CurtGough.github.io/hhs-memorial/static/css/main.1eb67797.css.map",
-    "main.0c63632d.js.map": "/https//CurtGough.github.io/hhs-memorial/static/js/main.0c63632d.js.map",
-    "787.55aae160.chunk.js.map": "/https//CurtGough.github.io/hhs-memorial/static/js/787.55aae160.chunk.js.map"
+    "main.css": "/https//curtgough.github.io/hhs-memorial/static/css/main.1eb67797.css",
+    "main.js": "/https//curtgough.github.io/hhs-memorial/static/js/main.c9706b56.js",
+    "static/js/787.55aae160.chunk.js": "/https//curtgough.github.io/hhs-memorial/static/js/787.55aae160.chunk.js",
+    "index.html": "/https//curtgough.github.io/hhs-memorial/index.html",
+    "main.1eb67797.css.map": "/https//curtgough.github.io/hhs-memorial/static/css/main.1eb67797.css.map",
+    "main.c9706b56.js.map": "/https//curtgough.github.io/hhs-memorial/static/js/main.c9706b56.js.map",
+    "787.55aae160.chunk.js.map": "/https//curtgough.github.io/hhs-memorial/static/js/787.55aae160.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1eb67797.css",
-    "static/js/main.0c63632d.js"
+    "static/js/main.c9706b56.js"
   ]
 }
