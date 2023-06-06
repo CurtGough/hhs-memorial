@@ -18,6 +18,8 @@ const ImageSlider = ({ slides }) => {
         float: "none",
         margin: "0 auto",
         display: "block",
+        border: "3px",
+        borderColor: "#000",
         borderRadius: "2px",
         backgroundImage: `url(${slides[currentIndex].url})`,
         backgroundSize: "cover",
@@ -49,7 +51,7 @@ const ImageSlider = ({ slides }) => {
         position: "absolute",
         top: "50%",
         transform: "translate(0, -50%)",
-        left: "15px",
+        left: "25px",
         fontSize: "55px",
         color: "#fff",
         zIndex: 1,
@@ -95,8 +97,7 @@ const ImageSlider = ({ slides }) => {
         <div style={sliderStyles}>
             <div style={leftArrowStyles} onClick={goToPrevious}>‹</div>
             <div style={rightArrowStyles} onClick={goToNext}>›</div>
-            <div style={slideStyles}>
-            </div>
+            <div style={slideStyles} key={currentIndex}></div>
             <div style={titleStyles}>{slides[currentIndex].Name}</div>
             <div style={subtitleStyles}>{slides[currentIndex].Dates}</div>
             
