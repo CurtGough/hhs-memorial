@@ -1,7 +1,7 @@
 {
   "name": "hhs-memorial",
   "version": "0.1.0",
-  "homepage": "https://https://curtgough.github.io/hhs-memorial",
+  "homepage": "https://curtgough.github.io/hhs-memorial",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
