@@ -1,6 +1,9 @@
 import './App.css';
 import ImageSlider from "./ImageSlider";
 import Memorials from "./memorials.json";
+//import SlideShow from "./ImageSlider";
+//import Memorial from "./index";
+//import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
   

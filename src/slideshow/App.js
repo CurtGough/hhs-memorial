@@ -1,5 +1,5 @@
 import '../App.css';
-import ImageSlider from "../ImageSlider";
+import ImageSlider from "./SlideshowSlider";
 import Memorials from "../memorials.json";
 
 function App() {
