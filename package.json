@@ -9,8 +9,8 @@
     "@testing-library/user-event": "^13.5.0",
     "git": "^0.1.5",
     "nth-check": "2.1.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-scripts": "^0.0.0",
     "semver": ">=7.5.2",
     "web-vitals": "^2.1.4",
@@ -24,7 +24,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -37,9 +36,6 @@
       "last 1 safari version"
     ]
   },
-
-  "eslintConfig": { "extends": [ "react-app" ] },
-
   "devDependencies": {
     "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-import": "^2.32.0",
@@ -51,5 +47,10 @@
     "nth-check": "2.1.1",
     "semver": ">=7.5.2",
     "word-wrap": ">=1.2.4"
+  },
+  
+    "eslintConfig": {
+      "extends": ["react-app"]
+    }
   }
-}
+
