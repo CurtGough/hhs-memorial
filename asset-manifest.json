@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hhs-memorial/static/css/main.f917feaf.css",
-    "main.js": "/hhs-memorial/static/js/main.323cbaf9.js",
+    "main.js": "/hhs-memorial/static/js/main.2d8345af.js",
     "static/js/593.123afc17.chunk.js": "/hhs-memorial/static/js/593.123afc17.chunk.js",
     "index.html": "/hhs-memorial/index.html",
     "main.f917feaf.css.map": "/hhs-memorial/static/css/main.f917feaf.css.map",
-    "main.323cbaf9.js.map": "/hhs-memorial/static/js/main.323cbaf9.js.map",
+    "main.2d8345af.js.map": "/hhs-memorial/static/js/main.2d8345af.js.map",
     "593.123afc17.chunk.js.map": "/hhs-memorial/static/js/593.123afc17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f917feaf.css",
-    "static/js/main.323cbaf9.js"
+    "static/js/main.2d8345af.js"
   ]
 }
